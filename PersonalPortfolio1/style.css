@@ -1,0 +1,39 @@
+head{
+    font-size: 22px;
+}
+
+body{
+    text-align: center;
+    background-color:azure;
+    color:rgb(47, 45, 45);
+    font-family: monospace;
+}
+
+a{
+    color:rgb(0, 0, 0);
+}
+
+a:visited{
+    color:rgb(3, 58, 106);
+}
+
+a:hover{
+    color:rgb(4, 93, 111)
+}
+
+header{
+    font-family:monospace;
+    font-size: 50px;
+    font-style:normal;
+    font-variant-caps:titling-caps;
+}
+
+img{
+    border: 5px solid black;
+    padding: 3px;
+    margin: 5px;
+    max-width: 100%;
+    max-height: 85%;
+}
+
+
