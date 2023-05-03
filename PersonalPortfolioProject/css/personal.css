@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 9%);
+    color: white;
+}
+.noise::before{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    content: "";
+    /* you can control opacity of noise  */
+    opacity: .1;  
+    z-index: 1000;
+    pointer-events: none;
+    background: url(/ScrimbaCourseHTML/img/noise.gif) ;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+
+#title{
+    font-family: monospace;
+    font-size: 100px;
+    text-align: center;
+    position: absolute;
+    background: linear-gradient(75deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    letter-spacing: 5px;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    animation:animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
