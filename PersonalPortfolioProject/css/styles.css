@@ -8,6 +8,7 @@ body{
     background-color: hsl(0, 0%, 9%);
     color: white;
 }
+
 .noise::before{
     position: fixed;
     top: 0;
@@ -19,7 +20,7 @@ body{
     opacity: .1;  
     z-index: 1000;
     pointer-events: none;
-    background: url(/ScrimbaCourseHTML/img/noise.gif) ;
+    background: url(/PersonalPortfolioProject/img/noise.gif) ;
 }
 
 header{
