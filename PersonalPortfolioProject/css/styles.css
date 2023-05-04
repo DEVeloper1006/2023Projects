@@ -225,5 +225,5 @@ button{
     animation:animate 10s linear infinite;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-color: rgba(0, 0, 0, 0.9);
+    border-color: rgba(0, 0, 0, 0);
 }
