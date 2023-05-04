@@ -149,7 +149,7 @@ a:hover{
     min-width: 250px;
     min-width: 250px;
     max-width: 1000px;
-    max-height: 1000px;
+    max-height: 1250px;
     border-radius: 50px;
 }
 
@@ -159,7 +159,6 @@ a:hover{
     color: white;
     background: rgba(0, 0, 0, 0.5);
     font-size: 25px;
-    text-align: center;
     border-color: rgba(0, 0, 0, 0.9);
     padding-left: 10px;
     padding-right: 10px;
@@ -172,7 +171,18 @@ a:hover{
     color: white;
     background: rgba(0, 0, 0, 0.5);
     font-size: 25px;
-    text-align: center;
+    border-color: rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 75%;
+}
+
+#subject{
+    border-radius: 10px;
+    font-family: monospace;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
     border-color: rgba(0, 0, 0, 0.9);
     padding-left: 10px;
     padding-right: 10px;
@@ -203,4 +213,17 @@ a:hover{
     resize: none;
     width: 75%;
     height: 75%;
+}
+
+button{
+    font-family: monospace;
+    font-size: 25px;
+    background: linear-gradient(75deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 200%;
+    color: white;
+    border-radius: 15px;
+    animation:animate 10s linear infinite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: rgba(0, 0, 0, 0.9);
 }
