@@ -1,8 +1,4 @@
 
-*{
-    margin: 0;
-    padding: 0;
-}
 
 body{
     background-color: hsl(0, 0%, 9%);
@@ -31,7 +27,7 @@ header{
     font-size: fixed;
 }
 
-#title{
+h1{
     font-family: monospace;
     font-size:10em;
     text-align: center;
@@ -84,9 +80,10 @@ header{
 
 .picture{
     text-align:center;
+    margin: 0 auto;
 }
 
-#about{
+h2{
     font-family: monospace;
     font-size: 5em;
     text-align: center;
@@ -97,15 +94,10 @@ header{
     animation:animate 10s linear infinite;
 }
 
-#about-paragraph{
+p{
     font-family: monospace;
     font-size:2em;
-    padding-top: 25px;
-    padding-left: 275px;
-}
-
-.about{
-    width: 85%;
+    text-align: center;
 }
 
 a{
@@ -118,4 +110,10 @@ a:visited{
 
 a:hover{
     color:#ff00f3
+}
+
+.container{
+    width: 75%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
